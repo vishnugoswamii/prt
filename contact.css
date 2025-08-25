@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: #f9f9f9;
+  color: #333;
+}
+
+.icon-bar {
+  display: flex;
+  background-color: #0d6efd;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+
+}
+
+
+
+#element {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.social-icon {
+  display: flex;
+  /* background-color: #57667e; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 185px;
+
+}
+
+.social-icon img {
+  background-color: #57667e;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+
+a:nth-of-type(2) img {
+  width: 40px;
+  height: auto;
+}
+
+a:nth-of-type(3) img {
+  width: 38px;
+  height: auto;
+}
+
+a:nth-of-type(4) img {
+  width: 38px;
+  height: auto;
+}
+
+.social-icon a {
+  margin: 0 10px;
+  display: flex;
+}
+
+
+.button ul {
+  list-style: none;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.button ul li:nth-child(2) a {
+  padding-left: 25px;
+}
+
+.button a {
+  text-decoration: none;
+  padding: 7px 15px;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button a:hover {
+  background-color: #4782db;
+}
+
+h1 {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.section {
+  margin: 10px 20px -10px 20px;
+  background-color: #e3f2ff;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 50px 40px 15px 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.profile-pic {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.card a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.social-heading {
+  margin-top: 30px;
+  font-weight: 600;
+  color: #222;
+}
+
+.contact-section {
+  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 40px 20px;
+  background: #e3f2ff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin: 0px 20px 0px 20px;
+  font-size: 2.5rem;
+  color: white;
+  background: #41A4F5;
+  padding: 20px 0;
+  margin-bottom: 70px;
+}
+
+.contact-box {
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 8px 0px #0d6efd;
+}
+
+.contact-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #41A4F5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  font-size: 1.1rem;
+  background: #41A4F5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #2196f3;
+}
+
+
+hr {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 20px 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3f51b5;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+section p,
+section ul {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+
+  .card p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+  }
+
+
+  .button ul {
+    list-style: none;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .button ul li:nth-child(2) a {
+    padding-left: 3px;
+  }
+
+  .button a {
+    text-decoration: none;
+    padding: 8px 1px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 90px;
+
+  }
+
+  .social-icon img {
+    background-color: #57667e;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+  }
+
+  a:nth-of-type(2) img {
+    width: 40px;
+    height: auto;
+  }
+
+  a:nth-of-type(3) img {
+    width: 38px;
+    height: auto;
+  }
+
+  a:nth-of-type(4) img {
+    width: 38px;
+    height: auto;
+  }
+
+}
